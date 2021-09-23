@@ -20,6 +20,7 @@ body{
 }
 /* Background */
 .intro-bg{
+    display: none;
     background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)), url('img/intro-bg.jpg') no-repeat center center;
     background-size: cover;
     height: 100vh; 
@@ -545,4 +546,13 @@ footer i{
 }
 .gotop-btn.show{
     display: flex;
+}
+/* Preloader */
+#preloader{
+    background: #000 url('img/preloader.gif') no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+    position: absolute;
+    top: 0;
 }
