@@ -277,10 +277,16 @@ body{
     justify-content: center;
     align-items: center;
 }
+@media(max-width: 800px){
+    .about{
+        margin: 10vh 5vw;
+    }
+}
 .about .about-box{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 100px;
     padding:30px 0 20px 0;
     width:100%;
     min-height: 90vh;
@@ -305,6 +311,7 @@ body{
 }
 .about .about-box .about-content .row1{
     flex: 4;
+    min-width: 340px;
 }
 .row1 p{
     padding-bottom: 15px;
@@ -316,6 +323,7 @@ body{
 }
 .about .about-box .about-content .row2{
     flex: 4;
+    min-width: 290px;
     line-height: 30px;
 }
 .about .about-box .about-content .row2 p{
