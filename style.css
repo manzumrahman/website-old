@@ -311,7 +311,7 @@ body{
 }
 .about .about-box .about-content .row1{
     flex: 4;
-    min-width: 340px;
+    min-width: 290px;
 }
 .row1 p{
     padding-bottom: 15px;
